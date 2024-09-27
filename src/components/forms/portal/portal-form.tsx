@@ -11,7 +11,7 @@ type PortalFormProps = {
     question: string
     answered: string | null
   }[]
-  type: 'Appointment' | 'Payment'
+  type: "Appointment" | "Payment"
   customerId: string
   domainid: string
   email: string

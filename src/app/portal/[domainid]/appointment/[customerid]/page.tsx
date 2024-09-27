@@ -18,11 +18,11 @@ const AppointmentPage = async ({ params }: CustomerSignUpProps) => {
     <div>
       <PortalForm
         type="Appointment"
-        email={questions.email!}
-        domainid={params.domainid}
+        email={questions?.email!}
+        domainid={params?.domainid}
         bookings={bookings}
-        customerId={params.customerid}
-        questions={questions.questions}
+        customerId={params?.customerid}
+        questions={questions?.questions}
       />
     </div>
   )
