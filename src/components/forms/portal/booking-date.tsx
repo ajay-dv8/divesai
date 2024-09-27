@@ -7,6 +7,7 @@ import { Label } from '@/components/ui/label'
 import { APPOINTMENT_TIME_SLOTS } from '@/constants/timeslots'
 import { cn } from '@/lib/utils' 
 import { FieldValues, UseFormRegister } from 'react-hook-form'
+import React from 'react'
 
 type Props = {
   date: Date | undefined
@@ -44,9 +45,9 @@ const BookAppointmentDate = ({
         <div className="w-[300px]">
           <h6>Discovery Call</h6>
           <CardDescription>
-            During this call, we aim to explore potential avenues for
+            We aim to explore potential avenues for
             partnership, promotional opportunities, or any other means through
-            which we can contribute to the success of your company.
+            which we can contribute to the success.
           </CardDescription>
         </div>
 
