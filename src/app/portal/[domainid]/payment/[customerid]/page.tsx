@@ -18,19 +18,18 @@ const CustomerPaymentPage = async ({
   if (!questions) return null
 
   return (
-    <>
-    <p className="text-gray-500">Products</p>
+    <div>
     <PortalForm
-      email={questions.email!}
-      products={products?.products}
-      amount={products?.amount}
-      domainid={params.domainid}
-      customerId={params.customerid}
-      questions={questions.questions}
-      stripeId={products?.stripeId!}
       type="Payment"
+      email={questions.email!}
+      amount={products?.amount}
+      domainid={params?.domainid}
+      products={products?.products}
+      stripeId={products?.stripeId!}
+      customerId={params?.customerid}
+      questions={questions?.questions}
     />
-    </>
+    </div>
   )
 }
 

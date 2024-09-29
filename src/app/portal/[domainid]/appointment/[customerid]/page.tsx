@@ -15,8 +15,7 @@ const AppointmentPage = async ({ params }: CustomerSignUpProps) => {
   if (!questions) return null;
   
   return (
-    <>
-      <p className="text-gray-500">Appointment</p>
+    <> 
       <PortalForm
         type="Appointment"
         email={questions?.email!}

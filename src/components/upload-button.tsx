@@ -12,7 +12,7 @@ type Props = {
 
 const UploadButton = ({ errors, label, register }: Props) => {
   return (
-    <>
+    <div>
       <div className="flex gap-2 items-center">
         <Label
           htmlFor="upload-button"
@@ -40,7 +40,7 @@ const UploadButton = ({ errors, label, register }: Props) => {
           </p>
         )}
       />
-    </>
+    </div>
   )
 }
 

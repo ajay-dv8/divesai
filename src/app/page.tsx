@@ -2,6 +2,7 @@ import { Navbar } from "@/components/navbar";
 import { PricingCard } from "@/components/pricing-cards";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -24,9 +25,12 @@ export default function Home() {
               with just a snippet of code!
             </p>
 
-            <Button className="bg-green hover:bg-green/80 font-bold text-white px-4 mb-4">
-              Start For Free
-            </Button>
+            <Link href="/auth/sign-up" className="mb-16">
+              <Button className="bg-green hover:bg-green/80 font-bold text-white px-16 rounded-full border border-green">
+                Start For Free
+              </Button>
+            </Link>
+            
 
             <div >
               <Image
@@ -34,7 +38,7 @@ export default function Home() {
                 width={800}
                 height={350}
                 alt="lpimg"
-                className="max-w-2xl object-contain"
+                className="max-w-3xl object-contain"
               /> 
             </div>
           </div> 

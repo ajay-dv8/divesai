@@ -47,7 +47,7 @@ const ButtonHandler = () => {
       <div className="w-full flex flex-col gap-3 items-center">
         <Button
           type="submit"
-          className="w-full"
+          className="w-full bg-green/80 hover:bg-green transition-all duration-300 ease-in-out"
           // make sure fields exist
           {...(isName &&
             isEmail &&
@@ -80,7 +80,7 @@ const ButtonHandler = () => {
     <div className="w-full flex flex-col gap-3 items-center">
       <Button
         type="submit"
-        className="w-full"
+        className="w-full bg-green/80 hover:bg-green transition-all duration-300 ease-in-out"
         onClick={() => setCurrentStep((prev: number) => prev + 1)}
       >
         Continue

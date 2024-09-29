@@ -25,7 +25,7 @@ const TypeSelectionForm = ({ register, setUserType, userType }: TypeSelectionFor
         userType={userType}
         value="owner"
         title="I own a business"
-        text="Setting up my account for my company."
+        text="Setting up a account for my company."
       />
 
       {/* card for student selection */}

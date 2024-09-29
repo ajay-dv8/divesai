@@ -69,7 +69,7 @@ export const CreateProductForm = ({ id }: CreateProductFormProps) => {
       />
       <Button
         type="submit"
-        className="w-full"
+        className="w-full bg-green/80 hover:bg-green border border-green"
       >
         <Loader loading={loading}>Create Product</Loader>
       </Button>
