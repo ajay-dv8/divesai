@@ -80,7 +80,7 @@ export const useCompleteCustomerPayment = (onNext: () => void) => {
         elements,
         confirmParams: {
           // TODO: change settings to thankyou or dashboard page
-          return_url: 'http://localhost:3000/settings',
+          return_url: 'https://divesai.vercel.app/settings',
         },
         redirect: 'if_required',
       })
@@ -185,7 +185,7 @@ export const useCompletePayment = (
       const { error, paymentIntent } = await stripe.confirmPayment({
         elements,
         confirmParams: {
-          return_url: 'http://localhost:3000/settings',
+          return_url: 'https://divesai.vercel.app/settings',
         },
         redirect: 'if_required',
       })
