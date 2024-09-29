@@ -38,7 +38,7 @@ export default function Home() {
                 width={800}
                 height={350}
                 alt="lpimg"
-                className="max-w-3xl object-contain"
+                className="max-w-xl object-contain lg:max-w-3xl"
               /> 
             </div>
           </div> 

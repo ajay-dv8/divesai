@@ -27,11 +27,11 @@ export const SIDE_BAR_MENU: SIDE_BAR_MENU_PROPS[] = [
     icon: <ChatIcon />,
     path: 'conversation',
   },
-  {
-    label: 'Integrations',
-    icon: <IntegrationsIcon />,
-    path: 'integration',
-  },
+  // {
+  //   label: 'Integrations',
+  //   icon: <IntegrationsIcon />,
+  //   path: 'integration',
+  // },
   {
     label: 'Settings',
     icon: <SettingsIcon />,

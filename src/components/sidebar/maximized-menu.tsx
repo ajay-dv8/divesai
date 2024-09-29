@@ -21,7 +21,7 @@ type MaximizedMenuProps = {
 
 const MaxMenu = ({ current, domains, onExpand, onSignOut }: MaximizedMenuProps) => {
   return (
-    <div className="py-3 px-4 flex flex-col h-full">
+    <div className="py-3 px-4 flex flex-col h-full sticky top-0">
       <div className="flex justify-between items-center">
         <Image
           src="/images/logo.svg"
